@@ -1,0 +1,7 @@
+// Example .tfvars file to onboard Azure account
+// Replace your controller_ip and password values
+// Save the file as terraform.tfvars
+
+controller_ip = "52.nnn.47.189" // Replace with your controller public IP
+username      = "admin"
+password      = "abcd1234"      // Replace with your password
