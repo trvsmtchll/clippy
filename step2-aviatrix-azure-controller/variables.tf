@@ -1,7 +1,7 @@
-variable rg_name {
-  default = "aviatrix_controller_poc2"
+variable "rg_name" {
+  description = "Resource Group name for your controller"
+  type        = string
 }
-
 variable location {
   default = "East US"
 }
